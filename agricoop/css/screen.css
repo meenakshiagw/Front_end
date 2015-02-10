@@ -1,0 +1,48 @@
+header {
+	color: rgb(55, 65, 5);
+}
+
+.main-navigation a:link , .main-navigation a:visited, .main-navigation a:active {
+	color: white;
+	padding: 18px 22px;
+	background-color: rgb(58, 72, 5);
+	text-decoration: none;
+	border-radius: 5px; 
+}
+
+.main-navigation {
+	border-top: 4px solid #293201	;
+}
+
+.main-navigation a:hover {
+	background-color: rgb(55, 65, 5);
+}
+
+.left-nav-top, .left-nav-bottom {
+	border: 1px dotted grey;
+	border-radius: 4px;
+	margin-left: 30px;
+}
+
+.left-nav li {
+	margin: 15px 0px 15px -40px;
+	background-color: rgb(237, 246, 229);
+	padding: 8px;
+	border-top: 1px dotted black;
+	border-bottom: 1px dotted black;
+}
+
+.left-nav-top {
+	margin-bottom: 20px;
+}
+
+.left-nav a:link, .left-nav a:visited {
+	color: rgb(51, 61, 1);
+	text-decoration: none;
+}
+
+.left-nav a:hover {
+	text-decoration: underline;
+}
+
+

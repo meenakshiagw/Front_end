@@ -1,0 +1,91 @@
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.col-offset-12 {
+	margin-left: 100%;
+}
+
+.col-offset-11 {
+	margin-left: 91.6667%;
+}
+
+.col-offset-1 {
+	margin-left: 8.3333%;
+}
+
+.col-offset-6{
+	margin-left: 50%;
+}
+
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+	clear: both;
+}
+.col-12 {
+	text-align: center;
+  background-color: lightgrey;
+  padding: 10px 0px;
+}
+.col-11, .col-10,.col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1 {
+  text-align: center;
+  background-color: lightgrey;
+  padding: 10px 0px;
+  float: left;
+  clear: all;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+.col-11 {
+	width: 91.6667%;
+}
+
+.col-10 {
+	width: 83.3333%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-8 {
+	width: 66.67%;
+}
+
+.col-7 {
+	width: 58.3333%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-5 {
+	width: 41.6667%;
+}
+
+.col-4 {
+	width: 33.33%;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-2 {
+	width: 16.6667%;
+}
+
+.col-1 {
+	width: 8.3333%;
+}
+
+.show-grid .col-12 ,.show-grid .col-11,.show-grid .col-10, .show-grid .col-9, .show-grid .col-8, .show-grid .col-7, .show-grid .col-6, .show-grid .col-5, .show-grid .col-4, .show-grid .col-3, .show-grid .col-2, .show-grid .col-1 {
+	border: 1px solid black;
+	box-sizing: border-box;
+}

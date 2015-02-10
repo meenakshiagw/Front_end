@@ -1,0 +1,51 @@
+.form {
+	background-color: rgb(248, 248, 248);
+	padding: 30px;
+	width: 420px;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+label {
+	float: left;
+	width: 150px;
+	margin-left: 10px;
+	font-family: sans-serif;
+	font-weight: 600;
+	color: grey;
+	margin-top: 5px;
+}
+
+button {
+	padding: 10px 30px;
+	color: grey;
+	width: 200px;
+	background-color: grey;
+	border-radius: 10px;
+	border: 1px solid grey;
+	background: -webkit-linear-gradient(lightgrey 50%, white 50%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(lightgrey 50%, white 50%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(lightgrey 50%, white 50%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(lightgrey 50%, white 50%); /* Standard syntax */	
+}
+
+input {
+	border-radius: 5px;
+	width: 250px;
+	height: 22px;
+	text-align: center;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, .2);
+	border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.message input {
+	width: 250px;
+	height: 110px;
+}
+
+.submit {
+	margin-left: 160px;
+	padding: 10px;
+	box-shadow: none;
+}
+

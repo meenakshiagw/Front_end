@@ -1,0 +1,26 @@
+header, footer {
+	text-align: center;
+}
+
+nav ul li {
+	display: inline;
+}
+
+div nav ul li {
+	display: block;
+}
+
+div nav {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+div div article{
+	float: left;
+	width: 40%;
+}
+
+
